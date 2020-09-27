@@ -6,12 +6,12 @@
 
 #define BUTTON_PIN 0
 
-#define OLED_RESET_PIN 16
-#define OLED_SDA_PIN 4
-#define OLED_SCL_PIN 15
-#define OLED_I2C_ADDR 0x3c
-#define DS18B20_PIN 13
-#define DS18B20_POWER_PIN 12
+#define OLED_RESET_PIN 16       // OLED Reset Pin - required only for selected ESP32 boards and OLED screens
+#define OLED_SDA_PIN 4          // ESP32 I2C SDA - OLED SDA
+#define OLED_SCL_PIN 15         // ESP32 I2C SCL - OLED SCL
+#define OLED_I2C_ADDR 0x3c      // OLED I2C Address
+#define DS18B20_PIN 13          // DS18B20 Data Pin
+#define DS18B20_POWER_PIN 12    // DS18B20 Vcc pin 
 
 #define DEEP_SLEEP_TIME 1000 * 60 * 2 //Deep sleep in 2 minutes
 
